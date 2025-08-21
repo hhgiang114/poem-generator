@@ -20,20 +20,24 @@
         <h1>Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter a topic..."
-            autofocus
-            required
-            autocomplete="off"
-            class="instruction"
-            id="users-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Enter a topic..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instruction"
+              id="users-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="suggestion">i.e flower, sky or Paris</div>
+        </div>
+
         <!--show the poem-->
-        <div class="poem-part" id="poem-part">
+        <div class="poem-part hidden" id="poem-part">
           <div class="poem-content" id="poem-content"></div>
         </div>
       </main>
