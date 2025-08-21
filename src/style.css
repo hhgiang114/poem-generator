@@ -60,9 +60,9 @@ form {
 }
 
 .poem-content {
-  line-height: 30px;
+  line-height: 40px;
   font-weight: normal;
-  padding: 60px;
+  padding: 100px 80px;
   font-size: 18px;
   font-family: "Kalam";
 }
