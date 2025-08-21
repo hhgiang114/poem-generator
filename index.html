@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Pacifico&family=Playwrite+MX+Guides&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
@@ -18,7 +19,7 @@
         <h1>Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-form">
           <input
             type="text"
             placeholder="Enter a topic..."
@@ -30,20 +31,8 @@
           <input type="submit" class="submit-button" />
         </form>
         <!--show the poem-->
-        <div class="poem-part">
-          <div class="poem-content">
-            Roses are red Roses are red Roses are redRoses are redRoses are
-            redRoses are redRoses are reRoses are redRoses are redRoses are
-            redRoses are redRoses are redRoses are redRoses are redRoses are
-            redRoses are redRoses are redRoses are redRoses are redRoses are
-            redRoses are redRoses are redRoses are redRoses are reddRoses are
-            redRoses are redRoses are redRoses are redRoses are redRoses are
-            redRoses are red <br />
-            Violet are blue <br />
-            Roses are red <br />
-            Violet are blue <br />
-            Roses are red <br />
-          </div>
+        <div class="poem-part" id="poem-part">
+          <div class="poem-content" id="poem-content"></div>
         </div>
       </main>
       <footer>
