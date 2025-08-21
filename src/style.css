@@ -1,0 +1,75 @@
+body {
+  background-color: #faf3e7;
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 600px;
+  font-family: "Pacifico";
+}
+
+h1 {
+  font-family: "Playwrite MX Guides";
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1.5;
+  color: black;
+  border: 2px;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+form {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  padding-bottom: 30px;
+}
+.instruction {
+  padding: 20px;
+  border: 1px solid #ddbfa3;
+  border-radius: 30px;
+  width: 80%;
+  font-size: 16px;
+  /* line-height: 20px; */
+  font-family: "Pacifico";
+}
+.submit-button {
+  margin-left: 10px;
+  background-color: #ddbfa3;
+  color: white;
+  width: 150px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: none;
+  font-family: "Pacifico";
+}
+
+.poem-part {
+  background: url(poem-bg.png);
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+.poem-content {
+  line-height: 30px;
+  font-weight: normal;
+  padding: 60px;
+  font-size: 18px;
+  font-family: "Kalam";
+}
+
+footer {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}

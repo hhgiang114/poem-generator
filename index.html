@@ -3,40 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Pacifico&family=Playwrite+MX+Guides&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <!--show the poem-->
-      <div>
-        Roses are red <br />
-        Violet are blue <br />
-      </div>
-    </main>
-    <footer>
-      <p>
-        This project is coded by
-        <a href="https://github.com/hhgiang114" target="_blank"> Giang Hoang</a>
-        and hosted on
-        <a href="https://github.com/hhgiang114/dictionary-app" target="_blank"
-          >Github</a
-        >
-      </p>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <!--show the poem-->
+        <div class="poem-part">
+          <div class="poem-content">
+            Roses are red Roses are red Roses are redRoses are redRoses are
+            redRoses are redRoses are reRoses are redRoses are redRoses are
+            redRoses are redRoses are redRoses are redRoses are redRoses are
+            redRoses are redRoses are redRoses are redRoses are redRoses are
+            redRoses are redRoses are redRoses are redRoses are reddRoses are
+            redRoses are redRoses are redRoses are redRoses are redRoses are
+            redRoses are red <br />
+            Violet are blue <br />
+            Roses are red <br />
+            Violet are blue <br />
+            Roses are red <br />
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project is coded by
+          <a href="https://github.com/hhgiang114" target="_blank">
+            Giang Hoang</a
+          >
+          and hosted on
+          <a href="https://github.com/hhgiang114/dictionary-app" target="_blank"
+            >Github</a
+          >
+        </p>
+      </footer>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
